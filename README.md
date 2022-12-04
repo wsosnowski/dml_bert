@@ -3,7 +3,7 @@
 ## Usage: Train RoBERTa-large/base models with the use of Distance Metric Learning Losses
 Here is an example of using this package.
 
-1. Train RoBERTa model on SoftTriple Loss and CrossEntropy Loss
+1. Train RoBERTa model on DML Loss and CrossEntropy Loss
 ```
 python train_cross_validation.py --num-warmup-steps 10, --model-name roberta-large, --model-type triple-entropy --sample-size 20 --n-split 40 --dataset-name cr 
 ```
